@@ -8,8 +8,7 @@ import java.util.List;
 @Data
 public class ShowDTO {
     private String id;
-    private TheatreDTO theatre;
+    private ScreenDTO screenDTO;
     private MovieDTO movie;
     private LocalDateTime showTime;
-    private List<SeatDTO> seats;
 }
